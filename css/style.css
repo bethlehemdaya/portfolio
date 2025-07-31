@@ -1,0 +1,58 @@
+body {
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+    color: rgb(40, 72, 255);
+}
+
+h2 {
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 5px 8px;
+}
+
+.profile_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.menu_items > li > a {
+  text-decoration: none;
+}
+
+.profile_pic {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#profile_role {
+  color: #333;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

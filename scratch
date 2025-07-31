@@ -1,0 +1,72 @@
+create a file
+<html>
+    <head>
+        <title>First HTML</TITLE>
+        </HEAD>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Digital CV</title>
+</head>
+<body>
+  <header>
+    <h1>Bethlehem Daya
+
+    </h1>
+    <p>Software Developer | [Your Location]</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Brief intro about yourself, your background, and your passion for software development.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: HTML, CSS, JavaScript, Python</li>
+        <li>Frameworks: React, Node.js</li>
+        <li>Tools: Git, VS Code, Docker</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <article>
+        <h3>Job Title - Company Name</h3>
+        <p><em>Dates of Employment</em></p>
+        <p>Describe your responsibilities and accomplishments.</p>
+      </article>
+      <!-- Add more job entries as needed -->
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <article>
+        <h3>Degree - Institution</h3>
+        <p><em>Graduation Year</em></p>
+        <p>Relevant coursework or honors.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+  </footer>
+</body>
+</html>
